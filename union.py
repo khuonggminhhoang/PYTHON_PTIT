@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    n, m = map(int, input().split())
+    a = list(map(int, input().split()))
+    b = list(map(int, input().split()))
+    a = set(a)
+    b = set(b)
+    ans = a.union(b)
+    ans = list(ans)
+    ans.sort(reverse=True)
+    print(*ans)

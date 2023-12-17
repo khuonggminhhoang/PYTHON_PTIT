@@ -1,0 +1,11 @@
+if __name__ == '__main__':
+    s1 = set(input().lower().split())
+    s2 = set(input().lower().split())
+    uni = s1.union(s2)
+    inter = s1.intersection(s2)
+    uni = list(uni)
+    inter = list(inter)
+    uni.sort()
+    inter.sort()
+    print(*uni)
+    print(*inter)

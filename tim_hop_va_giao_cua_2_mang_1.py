@@ -1,0 +1,11 @@
+if __name__ == '__main__':
+    n, m = map(int, input().split())
+    a = list(map(int, input().split()))
+    b = list(map(int, input().split()))
+    c = set(a)
+    d = set(b)
+    ans1 = list(c & d)
+    ans1.sort()
+    ans2 = list(c | d)
+    print(*ans1)
+    print(*ans2)
