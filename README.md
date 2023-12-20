@@ -1,3 +1,4 @@
+#Khuong
 |Mã|Tiêu đề|
 |:-|:-|
 |ICPC0101|THU GỌN DÃY SỐ|
